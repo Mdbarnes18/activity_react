@@ -1,16 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Creating a React Project — Michael Barnes
 
-Currently, two official plugins are available:
+This project was created by Michael Barnes for CTI 110 (I01) IT Foundations (2026FA) at Cape Fear Community College.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This activity uses React and Vite to create a React application displaying the activity name, student name, and date.
 
-## React Compiler
+## Live Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View the live React application](https://mdbarnes18.github.io/activity_react/)
 
-## Expanding the ESLint configuration
+## Project Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application displays:
+
+- A heading with the activity name.
+- A paragraph containing the student's name.
+- A paragraph containing the date.
+
+## Project Setup
+
+Install the project dependencies:
+
+```sh
+npm install
+```
+
+### Development Server
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+### Production Build
+
+Compile and build the application:
+
+```sh
+npm run build
+```
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- ESLint
+- GitHub Pages
+
+## Author
+
+Michael Barnes
+
+CTI 110 (I01) IT Foundations (2026FA)
+
+Cape Fear Community College
